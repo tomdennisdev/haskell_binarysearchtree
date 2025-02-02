@@ -8,8 +8,10 @@ Using Stack
 
 Clone the repository and navigate to the project directory:
 
+```bash
 git clone https://github.com/tomdennisdev/haskell_binarysearchtree.git
 cd haskell_binarysearchtree
+```
 
 Ensure Stack is installed:
 
