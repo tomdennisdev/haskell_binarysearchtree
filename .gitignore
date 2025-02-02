@@ -1,25 +1,36 @@
-dist
-dist-*
-cabal-dev
-*.o
+# Haskell Stack build artifacts
+.stack-work/
+
+# GHC build files
+dist/
 *.hi
-*.hie
-*.chi
-*.chs.h
+*.o
 *.dyn_o
 *.dyn_hi
-.hpc
-.hsenv
-.cabal-sandbox/
+*.a
+*.so
+*.dylib
+*.exe
+
+# Cabal build files
 cabal.sandbox.config
-*.prof
-*.aux
-*.hp
-*.eventlog
-.stack-work/
 cabal.project.local
-cabal.project.local~
-.HTF/
+cabal.project.local~ 
+cabal.project.freeze
+dist-newstyle/
+
+# Stack resolver lock file
+stack.yaml.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# GHCi interactive files
+.ghci
 .ghc.environment.*
-.stack-work/
-*~
+
+# Test artifacts
+BinarySearchTree-test/
+BinarySearchTree-exe/

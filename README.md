@@ -1,6 +1,6 @@
 # haskell_binarysearchtree
 
-A simple Binary Search Tree (BST) implementation in Haskell with unit tests and property-based testing. This project provides functionality to insert, lookup, and list entries in a BST.
+A simple Binary Search Tree (BST) implementation produced using a test-driven development methodology. Includes automated unit tests and property-based testing. This project provides functionality to insert, lookup, and list BST entries in key order.
 
 📦 Installation
 
@@ -54,8 +54,11 @@ stack ghci test/Spec.hs
 
 📂 Haskell-BinarySearchTree/
 ```bash
+├── 📂 app/
+│   ├── Main.hs         # Main function (not used in this project)
 ├── 📂 src/
 │   ├── BST.hs         # Binary Search Tree implementation
+│   ├── Lib.hs         # File to store functions
 ├── 📂 test/
 │   ├── Spec.hs        # Unit and property tests
 ├── 📜 package.yaml    # Stack project configuration
